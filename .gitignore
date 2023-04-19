@@ -1,0 +1,5 @@
+dist/
+node_modules/
+sea-prep.blob
+sea-config.json
+hello
