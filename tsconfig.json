@@ -3,15 +3,16 @@
   "display": "Node 20",
 
   "compilerOptions": {
-    "lib": ["es2023"],
-    "module": "commonjs",
+    "lib": ["ES2023"],
+    "module": "CommonJS",
     "target": "es2022",
     "outDir": "./dist" /* Redirect output structure to the directory. */,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "declaration": true
   },
   "include": ["src/index.ts"], // not all modules work with ts, add them step by step
   "exclude": ["**/*.test.ts"]
