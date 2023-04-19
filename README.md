@@ -8,3 +8,13 @@
 [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
 
 Generates a unique hash for a set of transactions. Typically used when locking a set of transactions so the hash can be associated with the event.
+
+## Get Started
+
+```
+import * as AccountingHash from '@nexys/accounting-hash'
+
+const entries = []
+
+AccountingHash.entriesToHash(entries)
+```
