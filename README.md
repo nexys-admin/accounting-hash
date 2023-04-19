@@ -6,3 +6,5 @@
 [![NPM package](https://img.shields.io/npm/v/@nexys/accounting-hash.svg)](https://www.npmjs.com/package/@nexys/accounting-hash)
 [![Bundleophobia](https://badgen.net/bundlephobia/min/@nexys/accounting-hash)](https://bundlephobia.com/result?p=@nexys/accounting-hash)
 [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
+
+Generates a unique hash for a set of transactions. Typically used when locking a set of transactions so the hash can be associated with the event.
